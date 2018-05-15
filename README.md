@@ -14,3 +14,7 @@ Host  someinternalhost
     ProxyCommand ssh -W %h:%p gigal70@35.204.12.47
 
 #подключаемся через ssh someinternalhost	
+
+
+bastion_IP = 35.204.12.47
+someinternalhost_IP = 10.164.0.3

@@ -44,3 +44,9 @@ gcloud compute instances create reddit-app
 
 открытие портов
 gcloud compute --project=infra-199614 firewall-rules create default-puma-server --allow=tcp:9292 --target-tags=puma-server
+
+## ДЗ № 6
+В процессе сделано:
+Создан шаблон для packer
+Создан образ на gcp с mongodb и ruby
+Создан файл с переменными для packer
